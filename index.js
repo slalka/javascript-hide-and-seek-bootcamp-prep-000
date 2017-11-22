@@ -22,7 +22,7 @@ function deepestChild(search){
   }
   //if(b.length){
 
-    document.getElementById("nested").innerHTML = b
+    document.getElementById("nested").innerHTML = b.length
 //}
 
 
