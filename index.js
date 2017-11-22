@@ -15,14 +15,14 @@ while(i--){
 function deepestChild(search){
   search = search || "div#grand-node"
   var b = document.getElementById('#grand-node')
-  
+
   var c
   for(var i in b){
     c = c + b[i];
   }
   if(b.length){
 
-    document.getElementById("nested").innerHTML = b
+    document.getElementById("nested").innerHTML = 'p'
 }
 
 
