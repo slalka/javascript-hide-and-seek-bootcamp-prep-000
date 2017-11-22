@@ -14,7 +14,7 @@ while(i--){
 //increaseRankBy(1);
 function deepestChild(search){
   search = search || "div#grand-node"
-  var b = document.getElementById('#grand-node')
+  var b = document.getElementById('grand-node')
 
   var c
   for(var i in b){
