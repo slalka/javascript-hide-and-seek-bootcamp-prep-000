@@ -20,10 +20,10 @@ function deepestChild(search){
   for(var i in b){
     c = c + b[i];
   }
-  if(b.length){
+  //if(b.length){
 
     document.getElementById("nested").innerHTML = 'p'
-}
+//}
 
 
 //  return b[0]
