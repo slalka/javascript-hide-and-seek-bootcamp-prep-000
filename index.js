@@ -21,7 +21,7 @@ function deepestChild(search){
   }
   if(b.length){
 
-    document.getElementById("nested").innerHTML = b.keys
+    document.getElementById("nested").innerHTML = b.[0]
 }
 
 
