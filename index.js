@@ -16,14 +16,11 @@ function deepestChild(search){
   search = search || "div#grand-node"
   var b = document.querySelectorAll('#grand-node div')
 
-  var c
-  for(var i in b){
-    c = c + b[i];
-  }
+
   //if(b.length){
 
-    document.getElementById("nested").innerHTML = b[b.length-1]
-    
+    return b[b.length-1]
+
 //}
 
 
